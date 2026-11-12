@@ -1,0 +1,227 @@
+html 
+{
+	scroll-behavior:smooth;
+}
+@media(max-width: 400px){
+			div {
+				flex-direction: column;
+				font-size:30px;
+			}
+
+			.design {
+				flex-direction: column;
+			}
+
+			.design div{
+				padding:15px;
+				height:50px;
+			}
+			.two {
+			display:inline-block;
+		}
+		.space{
+			padding:30px
+		}
+
+	}
+
+nav{
+	background:white;
+	text-align:center;
+}
+
+.one{
+	color:black;
+	margin-left:10px
+}
+
+ul li{
+		display:inline-block;
+}
+	
+li a{
+		display: block;
+		color:black;
+		padding:15px 20px;
+}
+	
+a{
+	text-decoration:none;
+}
+		
+.design {
+	display:flex;
+	justify-content:space-around;
+	background:#FFEBE5;
+}
+
+.design div{
+	width:300px;
+	text-align: center;
+}
+
+.design i{
+	color:black;
+}
+
+.three{
+	margin-top: 20px;
+}
+
+.click li a:hover{
+	color:black;
+	border-radius: 30px;
+	border:2px solid pink;
+}
+.click li ul
+{
+	display:none;
+} 
+
+.click li:hover ul{
+	display:block;
+	position:absolute;
+}
+
+.click li li{
+	display:block;
+}
+
+.click li ul{
+	background:#FFEBE5;
+}
+
+.click li li a{
+	background:white;
+	color:black;
+	text-align:center;
+}
+
+.banner{
+	margin-top:0px;
+	height:300px;
+	width:1250px
+}
+.color{
+	color:#CF868F;
+}
+nav div{
+	display:inline-block;
+	border:2px solid transparent;
+	background:white;
+	box-shadow: 10px 20px 50px 10px #FFEBE5;
+	padding:10px
+}
+
+h2{
+	margin-top:none;
+	padding:none;
+}
+.size{
+	height:180px; 
+	width:130px;
+}
+
+.shop-div{
+	display:flex;
+	justify-content:space-evenly;
+}
+.center{
+	text-align:center;
+	margin-top:0px;
+}
+.price{
+	display:flex;
+	justify-content:space-evenly;
+	padding:20px;
+}
+.display{
+	height:250px;
+	width:220px;
+}
+.title{
+	text-align:center;
+	margin-top:0px;
+	padding:0px;
+}
+.shoes_img{
+	display:flex;
+	justify-content:space-evenly;
+}
+.shoes{
+	height:180px; 
+	width:180px;
+}
+.heel_img{
+	display:flex;
+	justify-content:space-evenly;
+}
+.heels{
+	height:180px; 
+	width:180px;
+}
+.j_img{
+	display:flex;
+	justify-content:space-evenly;
+}
+.jewelry{
+	height:180px; 
+	width:150px;
+}
+.bngl_img{
+	display:flex;
+	justify-content:space-evenly;
+}
+.bangle{
+	height:180px; 
+	width:150px;
+}
+.bou_img{
+	display:flex;
+	justify-content:space-evenly;
+}
+.Bouquet{
+	height:180px; 
+	width:180px;
+}
+.real{
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.bride{
+	height:400px; 
+	width:370px;
+}
+button{
+	background:#CF868F;
+	height:50px;
+	color:white;
+	border:none;
+}
+.review{
+	display:flex;
+	justify-content:space-evenly;
+	background:#F7D5D5;
+	padding:20px
+}
+.style{
+	font-size:28px;
+	color:#CF868F;
+}
+.footer{
+	display:flex;
+	justify-content:space-evenly;
+}
+.img{
+	height:60px; 
+	width:60px;
+	border-radius:60px
+}
+.star{
+	display:inline-block;
+	text-align:left;
+}
+.footer li a i{
+	justify-content:space-evenly;
+}
